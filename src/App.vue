@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <RandomWords />
+  <InputBar />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import RandomWords from './components/RandomWords.vue'
+import InputBar from './components/InputBar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,v
+    RandomWords,
+    InputBar
   }
 }
 </script>
