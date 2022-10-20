@@ -1,8 +1,12 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <RandomWords />
-  <InputBar />
+  <main class="container-fluid h-100">
+    <div class="row flex-column justify-content-between h-100">
+      <RandomWords class="col-12" />
+      <InputBar class="col-12" />
+    </div>
+  </main>
 </template>
 
 <script>
@@ -20,13 +24,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100vh;
 }
 </style>
