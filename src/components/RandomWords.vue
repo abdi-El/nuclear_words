@@ -1,7 +1,10 @@
 <template>
-  <!-- <div v-for="word in words" :key="`${word}-word`">{{word}}</div> -->
-  <div>
-    a
+  <div class="text-white text-center">
+    <div v-for="word in words" :key="`${word}-word`">
+      <span class="btn btn-success my-2 rounded">
+        {{word}}
+      </span>
+    </div>
   </div>
 </template>
 
@@ -27,7 +30,7 @@ export default {
   methods:{
     generateWords(){
       setTimeout(()=>{
-          if (this.words.length < 20){
+          if (this.words.length < 15){
             let word = this.generateWord()
             this.words.push(word)
             }

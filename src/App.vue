@@ -1,7 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <main class="container-fluid h-100">
+  <main class="container-fluid h-100 bg-primary">
     <div class="row flex-column justify-content-between h-100">
       <RandomWords class="col-12" />
       <InputBar class="col-12" />
